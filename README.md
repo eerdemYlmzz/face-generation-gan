@@ -6,7 +6,7 @@ A GAN that generates 64x64 RGB human faces from random noise, implemented in Ten
 
 ## Overview
 
-The project takes a raw collection of face photographs, extracts and crops the faces with a Haar cascade detector, normalizes them into a fixed size tensor dataset, and trains a GAN to synthesize new faces. The trained generator and discriminator are exported as `.keras` models and published to the Hugging Face Hub [`virtuerdem/gan-human-faces`]("https://huggingface.co/virtuerdem/gan-human-faces").
+The project takes a raw collection of face photographs, extracts and crops the faces with a Haar cascade detector, normalizes them into a fixed size tensor dataset, and trains a GAN to synthesize new faces. The trained generator and discriminator are exported as `.keras` models and published to the Hugging Face Hub [`virtuerdem/gan-human-faces`](https://huggingface.co/virtuerdem/gan-human-faces).
 
 ## Repository structure
 

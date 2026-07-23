@@ -3,7 +3,7 @@
 https://github.com/user-attachments/assets/4ce37928-547e-43db-b18e-a8e7ff85f86a
 
 
-﻿## face-generation-gan
+﻿face-generation-gan
 
 A GAN that generates 64x64 RGB human faces from random noise, implemented in TensorFlow/Keras and trained on Google Colab T4 GPU.
 

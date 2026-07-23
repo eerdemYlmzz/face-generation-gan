@@ -4,6 +4,14 @@ A GAN that generates 64x64 RGB human faces from random noise, implemented in Ten
 
 **Author:** Erdem YILMAZ
 
+## Generation Timelapse
+
+A timelapse of faces forming over the course of training.
+
+<video src="0723.mp4" controls width="512"></video>
+
+If the player does not load, open the file directly: [0723.mp4](0723.mp4)
+
 ## Overview
 
 The project takes a raw collection of face photographs, extracts and crops the faces with a Haar cascade detector, normalizes them into a fixed size tensor dataset, and trains a GAN to synthesize new faces. The trained generator and discriminator are exported as `.keras` models and published to the Hugging Face Hub [`virtuerdem/gan-human-faces`](https://huggingface.co/virtuerdem/gan-human-faces).
